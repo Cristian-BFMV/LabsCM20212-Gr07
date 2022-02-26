@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Labs20212-Gr07</string>
+    <string name="app_title">Información persnal</string>
+    <string name="app_information_name">Ingrese sus nombres</string>
+    <string name="app_information_lastname">Ingrese sus apellidos</string>
+    <string name="app_information_gender">Sexo</string>
+    <string name="app_information_gender_male">Hombre</string>
+    <string name="app_information_gender_female">Mujer</string>
+    <string name="app_information_birth_date">Fecha de nacimiento</string>
+    <string name="app_information_birth_date_button">Cambiar</string>
+    <string name="app_information_grade">Grado de escolaridad</string>
+    <string name="app_information_next">Siguiente</string>
+    <string-array name="app_information_grades">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universitaria</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="app_spanish_error_message">Ingrese todos los campos requeridos</string>
+    <string name="app_english_error_message">Fill out all the required filds</string>
 </resources>
