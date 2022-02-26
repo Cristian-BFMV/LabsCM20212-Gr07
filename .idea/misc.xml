@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mateo Castro/Documents/Projects/CompuMovil/LabsCM20212-Gr07/Lab1-UI/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1995" />
+        <entry key="..\:/Users/Mateo Castro/Documents/Projects/CompuMovil/LabsCM20212-Gr07/Lab1-UI/src/main/res/drawable/ic_launcher_background.xml" value="0.1995" />
+        <entry key="..\:/Users/Mateo Castro/Documents/Projects/CompuMovil/LabsCM20212-Gr07/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.1" />
+        <entry key="..\:/Users/Mateo Castro/Documents/Projects/CompuMovil/LabsCM20212-Gr07/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Mateo Castro/Documents/Projects/CompuMovil/LabsCM20212-Gr07/Lab1-UI/src/main/res/layout/custom_item.xml" value="0.10461956521739131" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Labs20212Gr07/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
       </map>
     </option>

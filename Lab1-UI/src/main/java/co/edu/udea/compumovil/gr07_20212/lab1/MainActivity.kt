@@ -1,6 +1,7 @@
 package co.edu.udea.compumovil.gr07_20212.lab1
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -79,6 +80,8 @@ class MainActivity : AppCompatActivity() {
                 val builder = StringBuilder()
                 builder.append(namesInput.text).append(lastNamesInput.text).append(selectedGender).append("Nació el").append(birthDateText.text).append(selectedGrade)
                 Log.v("Información personal", builder.toString())
+                val intent: Intent = Intent(this, ContactDataActivity::class.java)
+                startActivity(intent)
             }
         }
     }
