@@ -73,13 +73,13 @@ class MainActivity : AppCompatActivity() {
         val lastNamesInput = findViewById<EditText>(R.id.last_names)
         val genderRadioGroup = findViewById<RadioGroup>(R.id.gender)
         nextButton.setOnClickListener {
-            if(namesInput.text.isEmpty() && lastNamesInput.text.isEmpty() && birthDateText.text.isEmpty())
+            if(namesInput.text.isEmpty() || lastNamesInput.text.isEmpty() || birthDateText.text.isEmpty())
                 showErrorMessage()
             else {
                 val selectedGender = if (genderRadioGroup.checkedRadioButtonId == -1) "No has seleccionado un genero" else if(findViewById<RadioButton>(genderRadioGroup.checkedRadioButtonId).text.equals("Mujer")) "Femenino" else "Masculino"
                 val builder = StringBuilder()
-                builder.append(namesInput.text).append(lastNamesInput.text).append(selectedGender).append("Nació el").append(birthDateText.text).append(selectedGrade)
-                Log.v("Información personal", builder.toString())
+                builder.append("\n").append(namesInput.text).append("\n").append(lastNamesInput.text).append("\n").append(selectedGender).append("\n").append("Nació el ").append(birthDateText.text).append("\n").append(selectedGrade)
+                Log.v("Información personal \n", builder.toString())
                 val intent: Intent = Intent(this, ContactDataActivity::class.java)
                 startActivity(intent)
             }
